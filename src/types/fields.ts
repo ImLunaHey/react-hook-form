@@ -23,7 +23,7 @@ export type CustomElement<TFieldValues extends FieldValues> =
 export type FieldValue<TFieldValues extends FieldValues> =
   TFieldValues[InternalFieldName];
 
-export type FieldValues = Record<string, any>;
+export type FieldValues = Record<string, unknown>;
 
 export type NativeFieldValue =
   | string
